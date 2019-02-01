@@ -36,7 +36,9 @@
 }
 .heading-1 {
   @extend %heading;
-  font-size: 2rem;
+  font-size: 4.5rem;
+  color: $color-grey-light-1;
+  line-height: 1;
 }
 
 .btn {
@@ -49,6 +51,7 @@
   padding: 1.8rem 3rem;
   cursor: pointer;
   transition: all 0.2s;
+  text-transform: uppercase;
   &:hover {
     background-color: $color-primary-dark;
   }
